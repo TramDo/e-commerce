@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>C:/Users/dothu/OneDrive/YorkU/Term 7/4413 E-commerce/apache-tomcat-8.5.50-src</location>
+		</link>
+	</linkedResources>
+</projectDescription>

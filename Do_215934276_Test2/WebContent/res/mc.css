@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+legend {
+	font-size: 125%;
+	padding-left: 1em;
+	padding-right: 1em;
+	background: #09C;
+	color: #fff;
+}
+.myForm {
+	
+	grid-gap: 0.8em;
+	background: #eee;
+	padding: 1.0em;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 10px;
+}

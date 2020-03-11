@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/dothu/OneDrive/YorkU/Term 7/4413 E-commerce/jar_files (1)/asm-all-repackaged-2.2.0-b10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dothu/OneDrive/YorkU/Term 7/4413 E-commerce/jar_files (1)/cglib-2.2.0-b10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dothu/OneDrive/YorkU/Term 7/4413 E-commerce/jar_files (1)/guava-14.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dothu/OneDrive/YorkU/Term 7/4413 E-commerce/jar_files (1)/hk2-api-2.2.0-b10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dothu/OneDrive/YorkU/Term 7/4413 E-commerce/jar_files (1)/hk2-locator-2.2.0-b10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dothu/OneDrive/YorkU/Term 7/4413 E-commerce/jar_files (1)/hk2-utils-2.2.0-b10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dothu/OneDrive/YorkU/Term 7/4413 E-commerce/jar_files (1)/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dothu/OneDrive/YorkU/Term 7/4413 E-commerce/jar_files (1)/javax.inject-2.2.0-b10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dothu/OneDrive/YorkU/Term 7/4413 E-commerce/jar_files (1)/javax.ws.rs-api-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dothu/OneDrive/YorkU/Term 7/4413 E-commerce/jar_files (1)/jersey-client-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dothu/OneDrive/YorkU/Term 7/4413 E-commerce/jar_files (1)/jersey-common-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dothu/OneDrive/YorkU/Term 7/4413 E-commerce/jar_files (1)/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dothu/OneDrive/YorkU/Term 7/4413 E-commerce/jar_files (2)/javax.json-api-1.1.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

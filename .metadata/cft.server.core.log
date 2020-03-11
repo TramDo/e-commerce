@@ -1,0 +1,54 @@
+Wed Feb 12 2020 11:29:15 AM - CloudFoundryServer.modifyModules(...): add: { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]} remove: {}
+Wed Feb 12 2020 11:29:15 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]}
+Wed Feb 12 2020 11:30:16 AM - CloudFoundryServer.modifyModules(...): add: {} remove: { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]}
+Wed Feb 12 2020 11:30:16 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web], jstl-1.2 [org.eclipse.jst.j2ee.server:jstl-1.2/jst.utility]}
+Wed Feb 12 2020 11:30:54 AM - CloudFoundryServer.modifyModules(...): add: { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]} remove: {}
+Wed Feb 12 2020 11:30:54 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]}
+Wed Feb 12 2020 11:31:02 AM - CloudFoundryServer.modifyModules(...): add: {} remove: { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]}
+Wed Feb 12 2020 11:31:02 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web], jstl-1.2 [org.eclipse.jst.j2ee.server:jstl-1.2/jst.utility]}
+Wed Feb 12 2020 11:31:49 AM - CloudFoundryServer.modifyModules(...): add: { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]} remove: {}
+Wed Feb 12 2020 11:31:49 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]}
+Wed Feb 12 2020 11:32:23 AM - CloudFoundryServer.modifyModules(...): add: {} remove: { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]}
+Wed Feb 12 2020 11:32:23 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web], jstl-1.2 [org.eclipse.jst.j2ee.server:jstl-1.2/jst.utility]}
+Wed Feb 12 2020 11:32:44 AM - CloudFoundryServer.modifyModules(...): add: { FormServletResult [org.eclipse.jst.jee.server:FormServletResult/jst.web]} remove: {}
+Wed Feb 12 2020 11:32:44 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { FormServletResult [org.eclipse.jst.jee.server:FormServletResult/jst.web]}
+Wed Feb 12 2020 11:37:19 AM - CloudFoundryServer.modifyModules(...): add: {} remove: { FormServletResult [org.eclipse.jst.jee.server:FormServletResult/jst.web]}
+Wed Feb 12 2020 11:37:25 AM - ClientRequestFactory.deleteApplication(...): appName:FormServletResult-testing
+Wed Feb 12 2020 11:37:29 AM - CloudFoundryServerBehaviour.publishModule(...): REMOVED { FormServletResult [org.eclipse.jst.jee.server:FormServletResult/jst.web]}
+Wed Feb 12 2020 11:39:02 AM - CloudFoundryServer.modifyModules(...): add: { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]} remove: {}
+Wed Feb 12 2020 11:39:02 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]}
+Wed Feb 12 2020 11:39:20 AM - CloudFoundryServer.modifyModules(...): add: {} remove: { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]}
+Wed Feb 12 2020 11:39:20 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web], jstl-1.2 [org.eclipse.jst.j2ee.server:jstl-1.2/jst.utility]}
+Wed Feb 12 2020 11:45:38 AM - CloudFoundryServer.modifyModules(...): add: { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]} remove: {}
+Wed Feb 12 2020 11:45:38 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]}
+Wed Feb 12 2020 11:53:15 AM - CloudFoundryServer.modifyModules(...): add: {} remove: { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]}
+Wed Feb 12 2020 11:53:21 AM - ClientRequestFactory.deleteApplication(...): appName:OsapCalc-v4-215934276
+Wed Feb 12 2020 11:53:25 AM - CloudFoundryServerBehaviour.publishModule(...): REMOVED { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]}
+Wed Feb 12 2020 11:53:37 AM - CloudFoundryServer.modifyModules(...): add: { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]} remove: {}
+Wed Feb 12 2020 11:53:37 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]}
+Thu Feb 20 2020 08:03:50 PM - CloudFoundryServerBehaviour.publishModule(...): CHANGED { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]}
+Thu Feb 20 2020 09:39:11 PM - CloudFoundryServerBehaviour.publishModule(...): CHANGED { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]}
+Mon Mar 2 2020 02:14:08 PM - CloudFoundryServerBehaviour.publishModule(...): CHANGED { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]}
+Wed Mar 4 2020 10:57:22 AM - CloudFoundryServerBehaviour.publishModule(...): CHANGED { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]}
+Wed Mar 4 2020 11:15:03 AM - CloudFoundryServer.modifyModules(...): add: { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]} remove: {}
+Wed Mar 4 2020 11:15:03 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]}
+Wed Mar 4 2020 11:15:10 AM - CloudFoundryServer.modifyModules(...): add: {} remove: { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]}
+Wed Mar 4 2020 11:16:14 AM - CloudFoundryServer.modifyModules(...): add: { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]} remove: {}
+Wed Mar 4 2020 11:16:14 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]}
+Wed Mar 4 2020 11:16:20 AM - CloudFoundryServer.modifyModules(...): add: {} remove: { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]}
+Wed Mar 4 2020 11:25:08 AM - CloudFoundryServerBehaviour.publishModule(...): CHANGED { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]}
+Wed Mar 4 2020 11:29:38 AM - CloudFoundryServer.modifyModules(...): add: { SIS-v2 [org.eclipse.jst.jee.server:SIS-v2/jst.web]} remove: {}
+Wed Mar 4 2020 11:29:38 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { SIS-v2 [org.eclipse.jst.jee.server:SIS-v2/jst.web]}
+Wed Mar 4 2020 11:29:47 AM - CloudFoundryServer.modifyModules(...): add: {} remove: { SIS-v2 [org.eclipse.jst.jee.server:SIS-v2/jst.web]}
+Wed Mar 4 2020 11:40:09 AM - CloudFoundryServer.modifyModules(...): add: { SIS-v2 [org.eclipse.jst.jee.server:SIS-v2/jst.web]} remove: {}
+Wed Mar 4 2020 11:40:09 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { SIS-v2 [org.eclipse.jst.jee.server:SIS-v2/jst.web]}
+Wed Mar 4 2020 11:43:32 AM - CloudFoundryServerBehaviour.publishModule(...): CHANGED { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]}
+Wed Mar 4 2020 03:36:01 PM - CloudFoundryServer.modifyModules(...): add: { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]} remove: {}
+Wed Mar 4 2020 03:36:01 PM - CloudFoundryServerBehaviour.publishModule(...): ADDED { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]}
+Wed Mar 4 2020 03:36:08 PM - CloudFoundryServer.modifyModules(...): add: {} remove: { Do_215934276_Test1 [org.eclipse.jst.jee.server:Do_215934276_Test1/jst.web]}
+Mon Mar 9 2020 01:39:21 PM - CloudFoundryServer.modifyModules(...): add: {} remove: { SIS-v2 [org.eclipse.jst.jee.server:SIS-v2/jst.web]}
+Mon Mar 9 2020 01:39:21 PM - CloudFoundryServerBehaviour.publishModule(...): REMOVED { SIS-v2 [org.eclipse.jst.jee.server:SIS-v2/jst.web]}
+Mon Mar 9 2020 02:05:46 PM - CloudFoundryServerBehaviour.publishModule(...): CHANGED { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]}
+Wed Mar 11 2020 09:42:43 AM - CloudFoundryServer.modifyModules(...): add: { SIS-v3 [org.eclipse.jst.jee.server:SIS-v3/jst.web]} remove: {}
+Wed Mar 11 2020 09:42:43 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { SIS-v3 [org.eclipse.jst.jee.server:SIS-v3/jst.web]}
+Wed Mar 11 2020 09:42:49 AM - CloudFoundryServer.modifyModules(...): add: {} remove: { SIS-v3 [org.eclipse.jst.jee.server:SIS-v3/jst.web]}

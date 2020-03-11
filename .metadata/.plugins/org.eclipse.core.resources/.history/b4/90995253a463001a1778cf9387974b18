@@ -1,0 +1,12 @@
+package rest;
+
+@Path("student") //this is the path of the resource
+
+public class Student {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

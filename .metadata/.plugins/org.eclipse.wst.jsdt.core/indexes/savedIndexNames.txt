@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+C:\Users\dothu\e-commerse\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2653069184.index
+3487768093.index
+2208547600.index
+1451002091.index
+4047447466.index
+2989818211.index
+53548604.index
+2065733802.index
+2306397765.index
+2526324090.index
