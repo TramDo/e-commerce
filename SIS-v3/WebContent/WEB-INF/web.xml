@@ -21,7 +21,7 @@
   </welcome-file-list>
   <context-param>
     <param-name>applicationName</param-name>
-    <param-value>SIS-v2</param-value>
+    <param-value>SIS-v3</param-value>
   </context-param>
 
  <error-page>

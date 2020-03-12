@@ -28,6 +28,12 @@ public class ListWrapper {
 		this.credit_taken = credit_taken;
 		this.list = list;
 	}
+	
+	public ListWrapper(String namePrefix, List<StudentBean> list) {
+		super();
+		this.namePrefix = namePrefix;
+		this.list = list;
+	}
 
 
 }

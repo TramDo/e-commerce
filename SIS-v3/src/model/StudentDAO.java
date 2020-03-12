@@ -47,7 +47,7 @@ public class StudentDAO {
 	}
 	
 	public Map<String, StudentBean>getStudent(String surname) throws SQLException{
-		String query = "select * from students where surname like '%" + surname;
+		String query = "select * from students where surname like '%" + surname + "%'";
 		Map<String, StudentBean> rv = new HashMap<String, StudentBean>();
 		Connection con = this.ds.getConnection();
 		PreparedStatement p = con.prepareStatement(query);
@@ -68,6 +68,30 @@ public class StudentDAO {
 				
 		return rv;
 		
+	}
+	
+	public int insert(String sid, String givenName, String surname, int credit_taken, int credit_graduate) throws SQLException, NamingException{
+		String preparedStatement ="insert into students values(?,?,?,?,?)";
+		Connection con = this.ds.getConnection();
+		PreparedStatement stmt = con.prepareStatement(preparedStatement);
+		//here we set individual parameters through method calls
+		//first parameter is the place holder position in the ? //pattern above
+		stmt.setString(1, sid);
+		stmt.setString(2, givenName);
+		stmt.setString(3, surname);
+		stmt.setInt(4, credit_taken);
+		stmt.setInt(5, credit_graduate);
+		
+		return stmt.executeUpdate();
+		
+	}
+	
+	public int delete(String sid) throws SQLException, NamingException{
+		String p = "delete from students where sid=?";
+		Connection con = this.ds.getConnection();
+		PreparedStatement stmt = con.prepareStatement(p);
+		stmt.setString(1, sid);
+		return stmt.executeUpdate();
 	}
 
 }

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\dothu\Documents\GitHub\Bookstore"/>
+		<item value="C:\Users\dothu\e-commerse\Do_215934276_Test2"/>
 		<item value="C:\Users\dothu\e-commerse\OsapCalc-v4"/>
 		<item value="C:\Users\dothu\Documents\GitHub\Foodify"/>
 	</list>
@@ -20,6 +22,7 @@
 			<item value="C:\Users\dothu\OneDrive\YorkU\Term 7\4413 E-commerce\XMLSamples_Marshal_Unmarshall"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\dothu\OneDrive\YorkU\Term 7\4413 E-commerce\Lab\Demo\RestClient (1).zip"/>
 			<item value="C:\Users\dothu\Downloads\XMLSamples2020.zip"/>
 			<item value=""/>
 		</list>

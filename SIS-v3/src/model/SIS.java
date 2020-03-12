@@ -2,10 +2,12 @@ package model;
 
 import java.io.File;
 import java.io.StringWriter;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.naming.NamingException;
 import javax.xml.XMLConstants;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
@@ -42,13 +44,13 @@ public class SIS {
 
 	private SIS() {
 
-		try {
+		/*try {
 			stuDao = new StudentDAO();
 			enDao = new EnrollmentDAO();
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}*/
 
 	}
 
@@ -115,13 +117,45 @@ public class SIS {
 		// return sw.toString();
 
 	}
-	
-	public String getAsXML (String surname) throws Exception{
+
+	public String getAsXML(String surname) throws Exception {
 		Map<String, StudentBean> stuBean = new HashMap<String, StudentBean>();
+		List<StudentBean> stuList = new ArrayList<StudentBean>();
 		stuBean = stuDao.getStudent(surname);
-		
-		return null;
-		
+		stuList.addAll(stuBean.values());
+
+		// 1.create a data object model
+		ListWrapper lw = new ListWrapper(surname, stuList);
+
+		// 2.create a context
+		JAXBContext jc = JAXBContext.newInstance(lw.getClass());
+
+		// 3. Create a marshaller
+		Marshaller marshaller = jc.createMarshaller();
+		marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+		marshaller.setProperty(Marshaller.JAXB_FRAGMENT, Boolean.TRUE);
+
+		// standard io
+		StringWriter sw = new StringWriter();
+		sw.write("<?xml version='1.0'?>\n");
+		sw.write("<?xml-stylesheet type=\"text/xsl\" href=\"sis.xsl\"?>");
+		sw.write("\n");
+
+		// 5. marshall
+		marshaller.marshal(lw, new StreamResult(sw)); // what and where to marshall
+		System.out.println(sw.toString()); // for debugging
+		//String stri = (sw.toString()).replaceAll("<", "&lt;").replaceAll(">", "&gt;");
+		// return XML
+		return sw.toString();
+
+	}
+	
+	public int create(String sid, String givenName, String surname, int credit_taken, int credit_graduate) throws Exception {
+		return stuDao.insert(sid, givenName, surname, credit_taken, credit_graduate);	
+	}
+	
+	public int delete(String sid) throws Exception {
+		return stuDao.delete(sid);
 	}
 
 }

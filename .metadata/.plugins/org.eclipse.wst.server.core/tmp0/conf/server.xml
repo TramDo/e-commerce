@@ -154,7 +154,7 @@
 	<Manager pathname=""/>
 	<Resource driverClassName="org.apache.derby.jdbc.EmbeddedDriver" factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" name="jdbc/EECS" type="javax.sql.DataSource" url="jdbc:derby:C:\Users\dothu\SIS_DB"/>
 	<ResourceLink global="jdbc/EECS" name="jdbc/EECS" type="javax.sql.DataSource"/>
-</Context></Host>
+</Context><Context docBase="C:\Users\dothu\e-commerse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Bookstore" path="/Bookstore" reloadable="true" source="org.eclipse.jst.jee.server:Bookstore"/><Context docBase="C:\Users\dothu\e-commerse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SIS-v2" path="/SIS-v2" reloadable="true" source="org.eclipse.jst.jee.server:SIS-v2"/><Context docBase="C:\Users\dothu\e-commerse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\OsapCalc-v4" path="/OsapCalc-v4" reloadable="true" source="org.eclipse.jst.jee.server:OsapCalc-v4"/><Context docBase="C:\Users\dothu\e-commerse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Do_215934276_Test1" path="/Do_215934276_Test1" reloadable="true" source="org.eclipse.jst.jee.server:Do_215934276_Test1"/></Host>
     </Engine>
   </Service>
 </Server>

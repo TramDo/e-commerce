@@ -14,7 +14,7 @@
 <title>XML Generated</title>
 </head>
 <body>
-	
+
 	<c:if test="${not empty xmlResult}">
 		${requestScope['xmlResult']}
 	</c:if>
