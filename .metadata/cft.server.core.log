@@ -52,3 +52,17 @@ Mon Mar 9 2020 02:05:46 PM - CloudFoundryServerBehaviour.publishModule(...): CHA
 Wed Mar 11 2020 09:42:43 AM - CloudFoundryServer.modifyModules(...): add: { SIS-v3 [org.eclipse.jst.jee.server:SIS-v3/jst.web]} remove: {}
 Wed Mar 11 2020 09:42:43 AM - CloudFoundryServerBehaviour.publishModule(...): ADDED { SIS-v3 [org.eclipse.jst.jee.server:SIS-v3/jst.web]}
 Wed Mar 11 2020 09:42:49 AM - CloudFoundryServer.modifyModules(...): add: {} remove: { SIS-v3 [org.eclipse.jst.jee.server:SIS-v3/jst.web]}
+Mon Mar 23 2020 01:33:22 PM - CloudFoundryServer.modifyModules(...): add: { SIS-v3 [org.eclipse.jst.jee.server:SIS-v3/jst.web]} remove: {}
+Mon Mar 23 2020 01:33:22 PM - CloudFoundryServerBehaviour.publishModule(...): ADDED { SIS-v3 [org.eclipse.jst.jee.server:SIS-v3/jst.web]}
+Mon Mar 23 2020 02:00:43 PM - CloudFoundryServerBehaviour.publishModule(...): CHANGED { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]}
+Mon Mar 23 2020 02:04:00 PM - CloudFoundryServerBehaviour.publishModule(...): CHANGED { SIS-v3 [org.eclipse.jst.jee.server:SIS-v3/jst.web]}
+Mon Mar 23 2020 02:08:55 PM - CloudFoundryServerBehaviour.publishModule(...): NO_CHANGE { App for 4413 [:external:App for 4413/org.eclipse.cft.server.core.CloudFoundryApplicationModule]}
+Mon Mar 23 2020 02:20:23 PM - CloudFoundryServer.modifyModules(...): add: {} remove: { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web], App for 4413 [:external:App for 4413/org.eclipse.cft.server.core.CloudFoundryApplicationModule]}
+Mon Mar 23 2020 02:20:31 PM - ClientRequestFactory.deleteApplication(...): appName:OsapCalc-v4-215934276
+Mon Mar 23 2020 02:21:12 PM - ClientRequestFactory.deleteApplication(...): appName:App for 4413
+Mon Mar 23 2020 02:21:16 PM - CloudFoundryServerBehaviour.publishModule(...): REMOVED { OsapCalc-v4 [org.eclipse.jst.jee.server:OsapCalc-v4/jst.web]}
+Mon Mar 23 2020 02:21:16 PM - CloudFoundryServerBehaviour.publishModule(...): REMOVED { App for 4413 [:external:App for 4413/org.eclipse.cft.server.core.CloudFoundryApplicationModule]}
+Mon Mar 23 2020 02:26:41 PM - CloudFoundryServerBehaviour.publishModule(...): CHANGED { SIS-v3 [org.eclipse.jst.jee.server:SIS-v3/jst.web]}
+Sun Apr 19 2020 11:25:41 PM - CloudFoundryServer.modifyModules(...): add: { Bookstore [org.eclipse.jst.jee.server:Bookstore/jst.web]} remove: {}
+Sun Apr 19 2020 11:25:41 PM - CloudFoundryServerBehaviour.publishModule(...): ADDED { Bookstore [org.eclipse.jst.jee.server:Bookstore/jst.web]}
+Sun Apr 19 2020 11:25:50 PM - CloudFoundryServer.modifyModules(...): add: {} remove: { Bookstore [org.eclipse.jst.jee.server:Bookstore/jst.web]}

@@ -149,12 +149,15 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\dothu\e-commerse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\dothu\e-commerse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SIS-v3" path="/SIS-v3" privileged="true" reloadable="true" source="org.eclipse.jst.jee.server:SIS-v3">
+      <Context docBase="C:\Users\dothu\e-commerse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context antiJARLocking="true" docBase="C:\Users\dothu\e-commerse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Bookstore" path="/Bookstore" reloadable="true" source="org.eclipse.jst.jee.server:Bookstore">
+<Resource auth="Container" driverClassName="com.ibm.db2.jcc.DB2Driver" maxActive="4" maxIdle="2" maxWait="5000" name="jdbc/springDataSource" password="k0m1022nx^dpz80r" type="javax.sql.DataSource" url="jdbc:db2://dashdb-txn-sbox-yp-dal09-03.services.dal.bluemix.net:50000/BLUDB:retrieveMessagesFromServerOnGetMessage=true;" username="jss12325"/>
+</Context><Context docBase="C:\Users\dothu\e-commerse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SIS-v3" path="/SIS-v3" privileged="true" reloadable="true" source="org.eclipse.jst.jee.server:SIS-v3">
 	<WatchedResource>WEB-INF/web.xml</WatchedResource>
 	<Manager pathname=""/>
-	<Resource driverClassName="org.apache.derby.jdbc.EmbeddedDriver" factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" name="jdbc/EECS" type="javax.sql.DataSource" url="jdbc:derby:C:\Users\dothu\SIS_DB"/>
+	<Resource driverClassName="com.ibm.db2.jcc.DB2Driver" factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" initialSize="1" maxActive="5" maxIdle="3" name="jdbc/EECS" password="34pbr7k0g38-cdkv" type="javax.sql.DataSource" url="jdbc:db2://dashdb-txn-sbox-yp-dal09-03.services.dal.bluemix.net:50000/BLUDB" username="bzb34614"/>
+
 	<ResourceLink global="jdbc/EECS" name="jdbc/EECS" type="javax.sql.DataSource"/>
-</Context><Context docBase="C:\Users\dothu\e-commerse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Bookstore" path="/Bookstore" reloadable="true" source="org.eclipse.jst.jee.server:Bookstore"/><Context docBase="C:\Users\dothu\e-commerse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SIS-v2" path="/SIS-v2" reloadable="true" source="org.eclipse.jst.jee.server:SIS-v2"/><Context docBase="C:\Users\dothu\e-commerse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\OsapCalc-v4" path="/OsapCalc-v4" reloadable="true" source="org.eclipse.jst.jee.server:OsapCalc-v4"/><Context docBase="C:\Users\dothu\e-commerse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Do_215934276_Test1" path="/Do_215934276_Test1" reloadable="true" source="org.eclipse.jst.jee.server:Do_215934276_Test1"/></Host>
+</Context><Context docBase="C:\Users\dothu\e-commerse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\OsapCalc-v4" path="/OsapCalc-v4" reloadable="true" source="org.eclipse.jst.jee.server:OsapCalc-v4"/></Host>
     </Engine>
   </Service>
 </Server>

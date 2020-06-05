@@ -3,6 +3,7 @@
   <module moduleId="org.eclipse.jst.jee.server:Do_215934276_Test1" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:OsapCalc-v4" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:OsapCalc-v3" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Bookstore" serverId="Apache Tomcat v8.5 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:ELAndJSTLSamples" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:SIS-v2" serverId="Tomcat v8.5 Server at localhost"/>
 </modules>

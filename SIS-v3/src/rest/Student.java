@@ -20,7 +20,7 @@ public class Student {
 	
 	public String getStudent(@QueryParam("studentName") String surname) throws Exception {
 		//http://localhost:8080/SIS-v3/rest/student/read?studentName=Rod
-		//curl -X GET http://localhost:8080/SIS-v3/rest/student/read?studentName=Way
+		//curl -X GET http://localhost:8080/SIS-v3/rest/student/read?studentName=Rod
 		String result = SIS.getInstance().getAsXML(surname);
 		return result;
 		

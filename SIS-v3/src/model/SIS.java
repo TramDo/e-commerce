@@ -16,6 +16,9 @@ import javax.xml.transform.stream.StreamResult;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 
+import DAO.EnrollmentDAO;
+import DAO.StudentDAO;
+
 import java.util.List;
 
 import bean.EnrollmentBean;
